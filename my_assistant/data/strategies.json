@@ -1,0 +1,148 @@
+{
+  "damaged_item": {
+    "issue_type": "damaged_item",
+    "initial_approach": "polite_direct",
+    "key_points": [
+      "Reference policy P-247 (Damaged Item Return Policy)",
+      "Provide clear description of damage",
+      "Request immediate resolution - refund and return label",
+      "Mention Prime membership if applicable"
+    ],
+    "opening_statement": "Hello, I received a damaged item and need assistance with a return and refund per policy P-247.",
+    "escalation_triggers": [
+      "CS refuses full refund",
+      "CS offers partial refund only",
+      "CS requests return without prepaid label",
+      "CS delays processing beyond policy timeframe"
+    ],
+    "escalation_tactics": [
+      "Request to speak with supervisor",
+      "Cite policy P-247 explicitly with specific conditions",
+      "Mention Prime membership benefits",
+      "Reference previous positive customer service experiences",
+      "Request case number for documentation"
+    ],
+    "success_indicators": [
+      "Full refund approved",
+      "Prepaid return label provided",
+      "No restocking fee mentioned",
+      "Refund timeframe confirmed (5-7 business days)"
+    ]
+  },
+  "late_delivery": {
+    "issue_type": "late_delivery",
+    "initial_approach": "understanding_but_firm",
+    "key_points": [
+      "Reference policy P-189 (Late Delivery Compensation)",
+      "Provide guaranteed delivery date",
+      "Confirm Prime membership status",
+      "Request appropriate compensation"
+    ],
+    "opening_statement": "My Prime order with guaranteed delivery was delivered late. I'd like to request the compensation outlined in policy P-189.",
+    "escalation_triggers": [
+      "CS denies compensation despite meeting conditions",
+      "CS offers less than policy-specified credit",
+      "CS claims guaranteed delivery doesn't apply"
+    ],
+    "escalation_tactics": [
+      "Reference specific order number and guaranteed date",
+      "Cite policy P-189 conditions explicitly",
+      "Mention repeated delivery issues if applicable",
+      "Request Prime membership extension for repeated delays",
+      "Ask for supervisor review"
+    ],
+    "success_indicators": [
+      "$10 promotional credit approved",
+      "Shipping charges refunded if applicable",
+      "Prime extension for repeated issues",
+      "Credit application timeframe confirmed (24-48 hours)"
+    ]
+  },
+  "wrong_item": {
+    "issue_type": "wrong_item",
+    "initial_approach": "factual_direct",
+    "key_points": [
+      "Reference policy P-156 (Wrong Item Shipped)",
+      "Describe item ordered vs item received",
+      "Request immediate replacement",
+      "Confirm prepaid return label for wrong item"
+    ],
+    "opening_statement": "I received the wrong item in my order. According to policy P-156, I should receive an immediate replacement and prepaid return label.",
+    "escalation_triggers": [
+      "CS requests return before replacement ships",
+      "CS charges for return shipping",
+      "CS doesn't offer expedited replacement shipping"
+    ],
+    "escalation_tactics": [
+      "Emphasize company error, not customer",
+      "Reference policy P-156 explicitly",
+      "Request expedited shipping at no cost",
+      "Ask for compensation for inconvenience",
+      "Request supervisor if not resolved"
+    ],
+    "success_indicators": [
+      "Replacement ships within 1-2 business days",
+      "Prepaid return label provided",
+      "Expedited shipping confirmed",
+      "No charges for company error"
+    ]
+  },
+  "return_standard": {
+    "issue_type": "return_standard",
+    "initial_approach": "straightforward",
+    "key_points": [
+      "Reference policy P-301 (30-Day Return Policy)",
+      "Confirm item is within 30-day window",
+      "Describe item condition (unopened/original packaging)",
+      "Request return label and refund information"
+    ],
+    "opening_statement": "I'd like to return an item within the 30-day return window per policy P-301.",
+    "escalation_triggers": [
+      "CS applies restocking fee when not warranted",
+      "CS deducts return shipping inappropriately",
+      "CS offers partial refund for unopened item"
+    ],
+    "escalation_tactics": [
+      "Verify item category and condition",
+      "Reference policy conditions met",
+      "Request detailed explanation of any fees",
+      "Ask for supervisor review of fee assessment",
+      "Mention customer loyalty and history"
+    ],
+    "success_indicators": [
+      "Full refund confirmed for unopened items",
+      "Return label provided",
+      "Clear timeframe for refund processing",
+      "No unexpected fees"
+    ]
+  },
+  "missing_package": {
+    "issue_type": "missing_package",
+    "initial_approach": "concerned_cooperative",
+    "key_points": [
+      "Reference policy P-428 (Missing Package Investigation)",
+      "Confirm package marked delivered",
+      "State 48-hour waiting period has passed",
+      "Request investigation or immediate resolution"
+    ],
+    "opening_statement": "My package was marked delivered but I never received it. It's been over 48 hours. Per policy P-428, I'd like to start an investigation or request a refund.",
+    "escalation_triggers": [
+      "CS requires extended waiting period beyond policy",
+      "CS refuses investigation",
+      "CS denies immediate refund for Prime member"
+    ],
+    "escalation_tactics": [
+      "Emphasize Prime membership for immediate refund",
+      "Reference 48-hour policy timeframe",
+      "Request carrier investigation",
+      "Mention filing police report for high-value items",
+      "Ask for supervisor involvement"
+    ],
+    "success_indicators": [
+      "Investigation initiated with carrier",
+      "Immediate refund for Prime members after 48 hours",
+      "Investigation timeframe confirmed (3-5 business days)",
+      "Replacement or refund guaranteed after investigation"
+    ]
+  }
+}

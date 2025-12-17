@@ -1,0 +1,8 @@
+# Strands Agents SDK - Core framework with A2A support
+strands-agents[a2a]>=1.0.0
+
+# Additional tools if needed
+strands-agents-tools>=0.2.0
+
+# HTTP client for A2A communication
+httpx>=0.24.0

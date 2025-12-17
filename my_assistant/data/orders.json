@@ -1,0 +1,94 @@
+{
+  "123-4567890-1234567": {
+    "order_id": "123-4567890-1234567",
+    "customer_id": "C-12345",
+    "customer_email": "customer@example.com",
+    "order_date": "2024-01-15T10:30:00Z",
+    "delivery_date": "2024-01-20T14:22:00Z",
+    "status": "delivered",
+    "is_prime": true,
+    "items": [
+      {
+        "asin": "B08N5WRWNW",
+        "name": "Dell XPS 13 Laptop - 13.4 inch FHD+",
+        "category": "Electronics",
+        "price": 999.99,
+        "quantity": 1,
+        "condition": "new"
+      }
+    ],
+    "total_amount": 999.99,
+    "shipping_address": {
+      "street": "123 Main St",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "shipping_method": "Prime One-Day",
+    "guaranteed_delivery": "2024-01-19T23:59:59Z"
+  },
+  "123-7890123-4567890": {
+    "order_id": "123-7890123-4567890",
+    "customer_id": "C-12345",
+    "customer_email": "customer@example.com",
+    "order_date": "2024-01-10T09:15:00Z",
+    "delivery_date": "2024-01-23T16:45:00Z",
+    "status": "delivered",
+    "is_prime": true,
+    "items": [
+      {
+        "asin": "B09JQK798Z",
+        "name": "Apple AirPods Pro (2nd Generation)",
+        "category": "Electronics",
+        "price": 249.99,
+        "quantity": 1,
+        "condition": "new"
+      }
+    ],
+    "total_amount": 249.99,
+    "shipping_address": {
+      "street": "123 Main St",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101"
+    },
+    "shipping_method": "Prime Two-Day",
+    "guaranteed_delivery": "2024-01-12T23:59:59Z"
+  },
+  "123-2345678-9012345": {
+    "order_id": "123-2345678-9012345",
+    "customer_id": "C-67890",
+    "customer_email": "another@example.com",
+    "order_date": "2024-01-18T14:20:00Z",
+    "delivery_date": null,
+    "status": "shipped",
+    "is_prime": false,
+    "items": [
+      {
+        "asin": "B0BSHF7WHW",
+        "name": "Amazon Echo Dot (5th Gen)",
+        "category": "Electronics",
+        "price": 49.99,
+        "quantity": 2,
+        "condition": "new"
+      },
+      {
+        "asin": "B09B8RXYM5",
+        "name": "Kindle Paperwhite",
+        "category": "Electronics",
+        "price": 139.99,
+        "quantity": 1,
+        "condition": "new"
+      }
+    ],
+    "total_amount": 239.97,
+    "shipping_address": {
+      "street": "456 Oak Ave",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97201"
+    },
+    "shipping_method": "Standard Shipping",
+    "guaranteed_delivery": "2024-01-25T23:59:59Z"
+  }
+}
